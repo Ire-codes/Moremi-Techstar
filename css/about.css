@@ -1,0 +1,171 @@
+*{
+    font-family: "Roboto" ,Arial, Helvetica, sans-serif;
+}
+
+.btn-btns1{
+    background: #E13D7E;
+    width: 120px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.py-n3{
+    padding-bottom: 0.76rem;
+    padding-top: 0.76rem;
+}
+
+
+.rounded-\[30px\] {
+    border-radius: 20px;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-btns1:hover{
+    color: white;
+}
+
+.highlight{
+    color: #E13D7E;
+}
+
+.h5{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.custom-img-height{
+    height: 450px;
+}
+
+.left{
+    width: 350px;
+    height: 500px;
+    }
+.center{
+    width: 350px;
+    height: 500px;
+    }
+.right{
+    width: 350px;
+    height: 500px;
+    }
+
+    .team-image{
+        height: 300px;
+        object-fit: cover;
+      }
+
+/* footer */
+
+footer {
+    padding: 80px 10px 10px 40px;
+}
+
+
+.footer1 p{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.list-group-item {
+    border: none;
+    background: none;
+    color: white;
+    text-align: center;
+    margin: 10px ;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.list-group-item:hover{
+    background-color: rgb(30, 30, 30);
+    color: #ccc;
+    list-style: none;
+}
+
+.footer_apply {
+    background-color: #E13D7E;
+    max-width: 700px;
+    max-height: 200px;
+    text-align: center;
+    padding: 40px 80px 40px 80px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.footer_apply h2{
+    color: white;
+    display: inline-block;
+}
+.footer_apply button{
+    color: #E13D7E;
+    background-color: white;
+    width: 300px;
+    min-height: 40px;
+    border: none;
+    margin-top: 15px;
+}
+
+.footer_apply a{
+    text-decoration: none;
+    color: #E13D7E;
+}
+
+
+.ms-n1{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    footer{
+        flex-direction: column ; /* Stack columns vertically on smaller screens */
+        align-items: center; /* Center align items */
+    }
+    .w-100 {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        align-items: center; /* Center align items */
+    }
+    .footer_apply {
+        position: static; /* Remove absolute positioning */
+        transform: none; /* Remove transform */
+        margin-top: 20px; /* Add some margin for spacing */
+    }
+}
+
+hr{
+    color: white;
+}
+
+.icons-group {
+    margin-top: 50px; /* Added margin-top to move it down */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-footer .col-md-6 {
+    display: flex;
+    align-items: center;
+}
+
+.icons-footer .col-md-6 i {
+    margin-left: 10px;
+}
+
+.bg-color{
+    background-color: rgb(30, 30, 30);
+}
+
+ul li{
+    list-style: none;
+}
+

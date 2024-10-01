@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/donation.css" type="text/css">
+</head>
+<body>
+    
+
+  <!-- <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid mt-3 px-1">
+                      <a class="navbar-brand" href="#">
+                        <img src="./img/Logo.png" width="150">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav lists ms-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link text focus:outline-none me-3" href="./index.html" role="button" >
+                                  Home
+                                </a>                                
+                              </li>
+                              
+                          <li class="nav-item ">
+                            <a class="nav-link text focus:outline-none me-3" href="./about.html" role="button">
+                              About
+                            </a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link text focus:outline-none me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Our programs
+                            </a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link text focus:outline-none me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Tech Events
+                            </a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link text focus:outline-none me-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Contact Us
+                            </a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link text focus:outline-none me-4 btn-btns1" href="./donate.html">
+                              Donate
+                            </a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+    
+<section class="d-flex justify-content-between align-items-start donation-container">
+    <div class="donation-image">
+        <img class="img-fluid w-100" src="img/donate.png" alt="Donation Image">
+    </div>
+    <div class="donation-form">
+        <section class="container">
+            <div class="container mt">
+                <h2 style="font-size: 20px;">Select Your Donation Amount</h2>
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="priceOption" id="price1" value="10">
+                            <label class="form-check-label" for="price1">$10</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="priceOption" id="price2" value="20">
+                            <label class="form-check-label" for="price2">$20</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="priceOption" id="price3" value="30">
+                            <label class="form-check-label" for="price3">$30</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="priceOption" id="price4" value="40">
+                            <label class="form-check-label" for="price4">$40</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="priceOption" id="price5" value="50">
+                            <label class="form-check-label" for="price5">$50</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="number" class="form-control" id="amount" placeholder="Enter amount" required>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="container mt-5">
+                <form>
+                    <h2 class="mb-3" style="font-size: 20px;">Information</h2>
+                    <div class="form-group mb-3">
+                        <input type="text" class="form-control" id="fullName validationCustom01"  required placeholder="Your name">
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Your email">
+                        
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="country">
+                            <option value="">Select a country</option>
+                            <option value="AF">Afghanistan</option>
+                            <option value="AL">Albania</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AS">American Samoa</option>
+                            <option value="AD">Andorra</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarctica</option>
+                            <option value="AG">Antigua and Barbuda</option>
+                            <option value="AR">Argentina</option>
+                            <option value="AM">Armenia</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BS">Bahamas</option>
+                            <option value="BH">Bahrain</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="BB">Barbados</option>
+                            <option value="BY">Belarus</option>
+                            <option value="BE">Belgium</option>
+                            <option value="BZ">Belize</option>
+                            <option value="BJ">Benin</option>
+                            <option value="BM">Bermuda</option>
+                            <option value="BT">Bhutan</option>
+                            <option value="BO">Bolivia</option>
+                            <option value="BA">Bosnia and Herzegovina</option>
+                            <option value="BW">Botswana</option>
+                            <option value="BR">Brazil</option>
+                            <option value="BN">Brunei Darussalam</option>
+                            <option value="BG">Bulgaria</option>
+                            <option value="BF">Burkina Faso</option>
+                            <option value="BI">Burundi</option>
+                            <option value="KH">Cambodia</option>
+                            <option value="CM">Cameroon</option>
+                            <option value="CA">Canada</option>
+                            <option value="CV">Cape Verde</option>
+                            <option value="KY">Cayman Islands</option>
+                            <option value="CF">Central African Republic</option>
+                            <option value="TD">Chad</option>
+                            <option value="CL">Chile</option>
+                            <option value="CN">China</option>
+                            <option value="CO">Colombia</option>
+                            <option value="KM">Comoros</option>
+                            <option value="CG">Congo</option>
+                            <option value="CD">Congo, Democratic Republic</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="CI">Côte d'Ivoire</option>
+                            <option value="HR">Croatia</option>
+                            <option value="CU">Cuba</option>
+                            <option value="CY">Cyprus</option>
+                            <option value="CZ">Czech Republic</option>
+                            <option value="DK">Denmark</option>
+                            <option value="DJ">Djibouti</option>
+                            <option value="DM">Dominica</option>
+                            <option value="DO">Dominican Republic</option>
+                            <option value="EC">Ecuador</option>
+                            <option value="EG">Egypt</option>
+                            <option value="SV">El Salvador</option>
+                            <option value="GQ">Equatorial Guinea</option>
+                            <option value="ER">Eritrea</option>
+                            <option value="EE">Estonia</option>
+                            <option value="ET">Ethiopia</option>
+                            <option value="FJ">Fiji</option>
+                            <option value="FI">Finland</option>
+                            <option value="FR">France</option>
+                            <option value="GA">Gabon</option>
+                            <option value="GM">Gambia</option>
+                            <option value="GE">Georgia</option>
+                            <option value="DE">Germany</option>
+                            <option value="GH">Ghana</option>
+                            <option value="GR">Greece</option>
+                            <option value="GD">Grenada</option>
+                            <option value="GU">Guam</option>
+                            <option value="GT">Guatemala</option>
+                            <option value="GN">Guinea</option>
+                            <option value="GW">Guinea-Bissau</option>
+                            <option value="GY">Guyana</option>
+                            <option value="HT">Haiti</option>
+                            <option value="HN">Honduras</option>
+                            <option value="HK">Hong Kong</option>
+                            <option value="HU">Hungary</option>
+                            <option value="IS">Iceland</option>
+                            <option value="IN">India</option>
+                            <option value="ID">Indonesia</option>
+                            <option value="IR">Iran</option>
+                            <option value="IQ">Iraq</option>
+                            <option value="IE">Ireland</option>
+                            <option value="IL">Israel</option>
+                            <option value="IT">Italy</option>
+                            <option value="JM">Jamaica</option>
+                            <option value="JP">Japan</option>
+                            <option value="JO">Jordan</option>
+                            <option value="KZ">Kazakhstan</option>
+                            <option value="KE">Kenya</option>
+                            <option value="KI">Kiribati</option>
+                            <option value="KW">Kuwait</option>
+                            <option value="KG">Kyrgyzstan</option>
+                            <option value="LA">Lao People's Democratic Republic</option>
+                            <option value="LV">Latvia</option>
+                            <option value="LB">Lebanon</option>
+                            <option value="LS">Lesotho</option>
+                            <option value="LR">Liberia</option>
+                            <option value="LY">Libya</option>
+                            <option value="LI">Liechtenstein</option>
+                            <option value="LT">Lithuania</option>
+                            <option value="LU">Luxembourg</option>
+                            <option value="MO">Macao</option>
+                            <option value="MK">Macedonia</option>
+                            <option value="MG">Madagascar</option>
+                            <option value="MW">Malawi</option>
+                            <option value="MY">Malaysia</option>
+                            <option value="MV">Maldives</option>
+                            <option value="ML">Mali</option>
+                            <option value="MT">Malta</option>
+                            <option value="MH">Marshall Islands</option>
+                            <option value="MR">Mauritania</option>
+                            <option value="MU">Mauritius</option>
+                            <option value="MX">Mexico</option>
+                            <option value="FM">Micronesia</option>
+                            <option value="MD">Moldova</option>
+                            <option value="MC">Monaco</option>
+                            <option value="MN">Mongolia</option>
+                            <option value="ME">Montenegro</option>
+                            <option value="MA">Morocco</option>
+                            <option value="MZ">Mozambique</option>
+                            <option value="MM">Myanmar</option>
+                            <option value="NA">Namibia</option>
+                            <option value="NR">Nauru</option>
+                            <option value="NP">Nepal</option>
+                            <option value="NL">Netherlands</option>
+                            <option value="NZ">New Zealand</option>
+                            <option value="NI">Nicaragua</option>
+                            <option value="NE">Niger</option>
+                            <option value="NG">Nigeria</option>
+                            <option value="KP">North Korea</option>
+                            <option value="NO">Norway</option>
+                            <option value="OM">Oman</option>
+                            <option value="PK">Pakistan</option>
+                            <option value="PW">Palau</option>
+                            <option value="PS">Palestinian Territory</option>
+                            <option value="PA">Panama</option>
+                            <option value="PG">Papua New Guinea</option>
+                            <option value="PY">Paraguay</option>
+                            <option value="PE">Peru</option>
+                            <option value="PH">Philippines</option>
+                            <option value="PL">Poland</option>
+                            <option value="PT">Portugal</option>
+                            <option value="PR">Puerto Rico</option>
+                            <option value="QA">Qatar</option>
+                            <option value="RO">Romania</option>
+                            <option value="RU">Russia</option>
+                            <option value="RW">Rwanda</option>
+                            <option value="KN">Saint Kitts and Nevis</option>
+                            <option value="LC">Saint Lucia</option>
+                            <option value="VC">Saint Vincent and the Grenadines</option>
+                            <option value="WS">Samoa</option>
+                            <option value="SM">San Marino</option>
+                            <option value="ST">Sao Tome and Principe</option>
+                            <option value="SA">Saudi Arabia</option>
+                            <option value="SN">Senegal</option>
+                            <option value="RS">Serbia</option>
+                            <option value="SC">Seychelles</option>
+                            <option value="SL">Sierra Leone</option>
+                            <option value="SG">Singapore</option>
+                            <option value="SK">Slovakia</option>
+                            <option value="SI">Slovenia</option>
+                            <option value="SB">Solomon Islands</option>
+                            <option value="SO">Somalia</option>
+                            <option value="ZA">South Africa</option>
+                            <option value="KR">South Korea</option>
+                            <option value="SS">South Sudan</option>
+                            <option value="ES">Spain</option>
+                            <option value="LK">Sri Lanka</option>
+                            <option value="SD">Sudan</option>
+                            <option value="SR">Suriname</option>
+                            <option value="SZ">Swaziland</option>
+                            <option value="SE">Sweden</option>
+                            <option value="CH">Switzerland</option>
+                            <option value="SY">Syrian Arab Republic</option>
+                            <option value="TW">Taiwan</option>
+                            <option value="TJ">Tajikistan</option>
+                            <option value="TZ">Tanzania</option>
+                            <option value="TH">Thailand</option>
+                            <option value="TL">Timor-Leste</option>
+                            <option value="TG">Togo</option>
+                            <option value="TO">Tonga</option>
+                            <option value="TT">Trinidad and Tobago</option>
+                            <option value="TN">Tunisia</option>
+                            <option value="TR">Turkey</option>
+                            <option value="TM">Turkmenistan</option>
+                            <option value="TV">Tuvalu</option>
+                            <option value="UG">Uganda</option>
+                            <option value="UA">Ukraine</option>
+                            <option value="AE">United Arab Emirates</option>
+                            <option value="GB">United Kingdom</option>
+                            <option value="US">United States</option>
+                            <option value="UY">Uruguay</option>
+                            <option value="UZ">Uzbekistan</option>
+                            <option value="VU">Vanuatu</option>
+                            <option value="VE">Venezuela</option>
+                            <option value="VN">Vietnam</option>
+                            <option value="YE">Yemen</option>
+                            <option value="ZM">Zambia</option>
+                            <option value="ZW">Zimbabwe</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="mt-5" style="font-size: 20px;">Payment Details</h2>
+                <input class="form-control mb-3 form-control-lg" type="text" placeholder="Enter your card number" aria-label="Enter your card number" >
+                <div class="row g-3">
+                    <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="Expiry Date" aria-label="Expiry Date">
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="Cvv" aria-label="Cvv">
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <a href="./index.html">  <button type="button" class="btn btn-sm backhome" style="background: transparent; color: #E13D7E; border: 1px solid #E13D7E; height: 50px; width: 150px;">Back Home</button><a>
+                    <button type="button submit" class="btn btn-sm mx-3"  style="background:#E13D7E; color: white; border: 1px solid #E13D7E; height: 50px; width: 150px;">Donate Now</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

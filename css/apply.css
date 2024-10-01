@@ -1,0 +1,232 @@
+*{
+    font-family: "Roboto" ,Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navbar style */
+
+.apply-form{
+    border-top: 2px solid #E13D7E;
+    border-bottom: 2px solid #E13D7E;
+    margin-top: 30px;
+}
+
+.apply-form h1 {
+    color: #E13D7E;
+    font-size: 4.37rem;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.btn-btns1{
+    background: #E13D7E;
+    width: 120px;
+    color: white;
+    text-align: center;
+}
+
+.py-n3{
+    padding-bottom: 0.76rem;
+    padding-top: 0.76rem;
+}
+
+
+.rounded-\[30px\] {
+    border-radius: 20px;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-btns1:hover{
+    color: white;
+}
+
+/* Apply now  */
+
+.apply-text{
+    line-height: 1.67rem;
+    text-align: justify;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the text block */
+    padding-bottom: 20px;
+}
+
+.register-container{
+    width: 800px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.h1{
+    font-size: 4.37rem;
+    font-weight: 500;
+}
+
+/* Form */
+.btn-design{
+    background-color: #E13D7E;
+    color: white;
+    align-content: center;
+    width: 400px;
+    height: 40px;
+}
+
+.btn-design:hover{
+    border: 1px solid #E13D7E;
+}
+
+.msg{
+    color: red;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.action-btn{
+    border: 1px solid;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-color: #dde1e4;
+}
+
+.action-btn:hover{
+    border: 1px solid;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-color: #dde1e4;
+    cursor: auto;
+}
+
+.btn-outline-secondary{
+    border-color: #dde1e4;
+    border-left: none;
+}
+
+input{
+    height: 50px;
+}
+
+/* footer */
+
+footer {
+    padding: 80px 10px 10px 40px;
+}
+
+
+.footer1 p{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.list-group-item {
+    border: none;
+    background: none;
+    color: white;
+    text-align: center;
+    margin: 10px ;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.list-group-item:hover{
+    background-color: rgb(30, 30, 30);
+    color: #ccc;
+    list-style: none;
+}
+
+.footer_apply {
+    background-color: #E13D7E;
+    max-width: 700px;
+    max-height: 200px;
+    text-align: center;
+    padding: 40px 80px 40px 80px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.footer_apply h2{
+    color: white;
+    display: inline-block;
+}
+.footer_apply button{
+    color: #E13D7E;
+    background-color: white;
+    width: 300px;
+    min-height: 40px;
+    border: none;
+    margin-top: 15px;
+}
+
+.footer_apply a{
+    text-decoration: none;
+    color: #E13D7E;
+}
+.ms-n1{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    footer{
+        flex-direction: column ; /* Stack columns vertically on smaller screens */
+        align-items: center; /* Center align items */
+    }
+    .w-100 {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        align-items: center; /* Center align items */
+    }
+    .footer_apply {
+        position: static; /* Remove absolute positioning */
+        transform: none; /* Remove transform */
+        margin-top: 20px; /* Add some margin for spacing */
+    }
+}
+
+hr{
+    color: white;
+}
+
+.icons-group {
+    margin-top: 50px; /* Added margin-top to move it down */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-footer .col-md-6 {
+    display: flex;
+    align-items: center;
+}
+
+.icons-footer .col-md-6 i {
+    margin-left: 10px;
+}
+
+.bg-color{
+    background-color: rgb(30, 30, 30);
+}
+
+ul li{
+    list-style: none;
+}

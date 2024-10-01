@@ -1,0 +1,29 @@
+*{
+    font-family: "Roboto" ,Arial, Helvetica, sans-serif;
+}
+
+.donation-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+}
+.donation-image, .donation-form {
+    flex: 0 0 50%; /* Fixed width of 50% */
+    padding: 20px;
+}
+.donation-image img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .donation-container {
+        flex-direction: column; /* Stack vertically on smaller screens */
+    }
+    .donation-image, .donation-form {
+        flex: 0 0 100%; /* Full width on smaller screens */
+    }
+}
+
+.backhome a {
+    text-decoration: none;
+    color: #E13D7E;
+}
